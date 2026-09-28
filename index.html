@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Samad| Creative Digital Designer</title>
-<meta name="description" content="Hi I'm Abdul , a UI & UX designer based in Dublin. Mobile and Responsive Web Design, eCommerce Websites, Branding and Logo Design.">
-</head>
+
+    <title>Abdul Samad | Creative Digital Designer</title>
+
+    <meta name="description"
+        content="Hi I'm Abdul, a UI & UX designer based in Dublin. Mobile and Responsive Web Design, eCommerce Websites, Branding and Logo Design.">
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <style type="text/tailwindcss">
 
+        body {
+            @apply font-sans;
+        }
+
+        header {
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        header h1 {
+            @apply mt-0 mb-4 text-4xl md:text-5xl font-bold tracking-tight;
+        }
+
+        header h2 {
+            @apply mt-0 mb-6 text-2xl md:text-3xl font-normal;
+        }
+
+        header p {
+            @apply mb-4 leading-relaxed;
+        }
+
+        main {
+            @apply px-[9%] md:px-[20%];
+        }
+
+        main p {
+            @apply mb-4 leading-relaxed;
+        }
+
+        main a {
+            @apply text-blue-600 underline hover:text-blue-800;
+        }
+
     </style>
+</head>
 
 <body>
-    <h1>Hi, I'm Abdul</h1>
-    <h2>Web / UI Designer</h2>
-    <p>I created this website to showcase some of my recent web design work.</p> 
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/soccer.html">soccer</a></p>
-    <p><a href="exercises/laptop.html">laptop</a></p>
-    <p><a href="exercises/page-3.html">page 3</a></p>
 
+    <header>
+        <h1>Hi, I'm Abdul</h1>
+
+        <h2>Web / UI Designer</h2>
+
+        <p>
+            I created this website to showcase some of my recent web design work.
+        </p>
+    </header>
+
+    <main>
+
+        <p>
+            <a href="exercises/page-1.html">A Tale of Two Cities</a>
+        </p>
+
+        <p>
+            <a href="exercises/soccer.html">Soccer</a>
+        </p>
+
+        <p>
+            <a href="exercises/laptop.html">Laptop</a>
+        </p>
+
+        <p>
+            <a href="exercises/page-3.html">Page 3</a>
+        </p>
+
+        <p>
+            <a href="exercises/page-2.html">Purple Rain</a>
+        </p>
+
+    </main>
 
 </body>
+
 </html>
